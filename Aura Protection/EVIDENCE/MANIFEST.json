@@ -1,0 +1,37 @@
+{
+  "package": "AURA-Part-6R-Evidence",
+  "version": "1.0",
+  "created_utc": "2026-09-17",
+  "status": "MECHANICALLY_RECOVERED",
+  "authority": "NONE",
+  "normative_effect": "NONE",
+  "purpose": "Provenance package for Custodian Part 6R replay. Evidence objects remain evidence-only.",
+  "source_repositories": [
+    "Aura-IDToken/aura-specification",
+    "vaidt/Crystal-panel-Aura-Protection"
+  ],
+  "objects": [
+    {"id":"E1","repository":"vaidt/Crystal-panel-Aura-Protection","path":"14_FORENSICS/07_ADR001_SUPERSESSION_AUTHORITY_PATH_RECONSTRUCTION_v1.0.md","blob":"638bb716060216a3df6d47dab62741c23c57e1f9","retrieval":"GitHub main"},
+    {"id":"E2","repository":"vaidt/Crystal-panel-Aura-Protection","path":"14_FORENSICS/07_ADR001_SD045_CLOSURE_GATE_v1.0.md","blob":"00b3800f2377d1e0cf5d9df9c195ab836c2a3ebb","retrieval":"GitHub main"},
+    {"id":"E3","repository":"vaidt/Crystal-panel-Aura-Protection","path":"14_FORENSICS/07_AUTHORITY_EVIDENCE_RECORD_ADR001_COLLISION_v1.0.md","blob":"6eb4898b27510db25f7f41048c1a03624e39323f","retrieval":"GitHub main"},
+    {"id":"E4","repository":"vaidt/Crystal-panel-Aura-Protection","path":"14_FORENSICS/07_AUTHORITY_REENTRY_ADR001_COLLISION_v1.0.md","blob":"22575d167695bf089ea724bdf9bb8e81931e70f9","retrieval":"GitHub main"},
+    {"id":"E5","repository":"Aura-IDToken/aura-specification","path":"adrs/ADR-001_REPOSITORY_STRUCTURE.md","blob":"3df6315b5b9883753d29668870bdace611e37f23","retrieval":"GitHub main"},
+    {"id":"E6","repository":"Aura-IDToken/aura-specification","path":"adrs/ADR-001_DOCUMENT_MODEL.md","blob":"66083e286a2fc33e70ccab4d1df6015ec0be65fd","retrieval":"GitHub main"},
+    {"id":"E7","repository":"Aura-IDToken/aura-specification","path":"docs/adr/001-document-model.md","blob":"340ed584082baf5353ce0496034484ab6379ac45","retrieval":"GitHub main"},
+    {"id":"E8","repository":"Aura-IDToken/aura-specification","path":"GOVERNANCE.md","blob":"38acf33e95a8803f2f0a606f3f73c964aeb871bf","retrieval":"GitHub main"},
+    {"id":"E9","repository":"Aura-IDToken/aura-specification","path":"adrs/README.md","blob":"8f7e55d01cbbc46f4f15e0cd60d49433e75930","retrieval":"GitHub main"},
+    {"id":"E10","repository":"Aura-IDToken/aura-specification","path":"releases/v0.1.0/DOCUMENT_STATUS.md","blob":"08f4e0ceec088d9ca17b21e2a5957ebfa16bb6a3","retrieval":"GitHub main"},
+    {"id":"E11","repository":"Aura-IDToken/aura-specification","path":"releases/v0.1.0/RELEASE_NOTES.md","blob":"5b00d70e41fc0864aa9c37f2a4f6d6583ad3394d","retrieval":"GitHub main"},
+    {"id":"E12","repository":"Aura-IDToken/aura-specification","path":"ck003/handover-assessment/05_EVIDENCE_GAPS.md","blob":"3e32b9e541a5a6ee2fd0eeafc5aed4e4c7b6c675","retrieval":"GitHub main"},
+    {"id":"E13","repository":"Aura-IDToken/aura-specification","path":"ck003/handover-assessment/09_RECOMMENDED_SEQUENCE.md","blob":"f0e47faae58eb09b929cd69d9889aaabe353940c","retrieval":"GitHub main"},
+    {"id":"E14","repository":"Aura-IDToken/aura-specification","path":"AURA-DOCUMENTATION-NORMALIZATION-AUDIT-v1.md","blob":"00bcda956f9de2473d361a928ff7a7da7e2f5aee","retrieval":"GitHub main"},
+    {"id":"E15","repository":"vaidt/Crystal-panel-Aura-Protection","path":"14_FORENSICS/07_AUTHORITY_ACT_REGISTER_v1.0.md","blob":"c93b5c95c809bd7bd47297c273fe493e1b5d6726","retrieval":"GitHub main"}
+  ],
+  "integrity_rule": "The listed blob SHA is the Git object identity observed during mechanical recovery. No source content is normalized or semantically reconciled by this package.",
+  "retention": {
+    "evidence_objects": "retain indefinitely while required for forensic traceability or unresolved governance reconstruction; never mutate in place",
+    "manifest": "retain with package history",
+    "derived_reports": "retain as separate derived artifacts and never overwrite source evidence",
+    "deletion": "requires an explicit documented retention decision; no automated deletion is enabled by this package"
+  }
+}
